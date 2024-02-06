@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mini Challenges</h1>
+    <!-- vending machine -->
+    <div>
+        <h2 id="vending-machine">Vending Machine</h2>
+        <div>
+            <p>Total: $<span id="vending-machine-total">0</span>.00</p>
+        </div>
+        <div id="machine-options">
+            <button id="cola">LIME COLA $2.00 </button>
+            <button id="peanuts">SALTED PEANUTS $3.00</button>
+            <button id="chocolate">CHOCOLATE BAR $4.00</button>
+            <button id="gummies">FRUIT GUMMIES $6.00</button>
+        </div>
+    </div>
+    <!-- make money -->
+    <div id="make-money">
+        <h2>Make Money</h2>
+        <h4>Total: $ <span id="totalMoney"></span></h4>
+        <div>
+            <form>
+                <label for="coin-number">How many?</label>
+                <input type="number" name="coin-number" id="coin-number">
+                <label for="coin-type">Which coin?</label>
+                <select name="coin-type" id="coin-type">
+                    <option value="penny">Penny</option>
+                    <option value="nickel">Nickel</option>
+                    <option value="dime">Dime</option>
+                    <option value="quarter">Quarter</option>
+                </select>
+                <button id="makeMoneyBtn">Make Money!</button>
+            </form>
+        </div>
+        <div id="display-coins"></div>
+    </div>
+    <!-- light bulb -->
+    <div id="light-bulb">
+        <h2>Light Bulb</h2>
+        <div id="bulb">Light Bulb</div>
+        <div id="light-btns">
+            <button id="on" class="light-btn">On</button>
+            <button id="off" class="light-btn">Off</button>
+            <button id="toggle" class="light-btn">Toggle</button>
+            <button id="end" class="light-btn">End</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>   
