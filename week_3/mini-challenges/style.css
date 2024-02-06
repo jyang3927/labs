@@ -45,24 +45,28 @@ div > p {
     color: yellow;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
 }
 #peanuts {
     background-color: #7F461B;
     color: peachpuff;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
 }
 #chocolate {
     background-color: #5C4033;
     color: burlywood;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
 }
 #gummies {
     background-color: orchid;
     color: darkslateblue;
     border-radius: 10px;
     border: none;
+    font-weight: bold;
 }
 
 /* MAKE MONEY */
