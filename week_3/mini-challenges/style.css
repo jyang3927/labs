@@ -109,7 +109,7 @@ select {
     padding: 10px;
 } */ 
 
-.pennies {
+.penny {
     height: 25px; 
     width: 25px; 
     border-radius: 50%;
@@ -122,7 +122,7 @@ select {
     margin: 10px;
     padding: 10px;
 }
-.nickels {
+.nickel {
     height: 40px; 
     width: 40px; 
     border-radius: 50%;
@@ -135,7 +135,7 @@ select {
     margin: 10px;
     padding: 10px;
 }
-.dimes {
+.dime {
     height: 20px; 
     width: 20px; 
     border-radius: 50%;
@@ -148,7 +148,7 @@ select {
     margin: 10px;
     padding: 10px;
 }
-.quarters {
+.quarter {
     height: 60px; 
     width: 60px; 
     border-radius: 50%;

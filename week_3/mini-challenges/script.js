@@ -39,16 +39,16 @@ form.addEventListener('submit', (e) => {
         const newCoin = document.createElement("span"); 
         // newCoin.classList.add("coin");
         if(coinType.value === "penny"){
-            newCoin.classList.add("pennies");
+            newCoin.classList.add(coinType.value);
             total += .01;
         } else if (coinType.value ==="nickel") {
-            newCoin.classList.add('nickels');
+            newCoin.classList.add(coinType.value);
             total += .05;
         }else if (coinType.value === "dime") {
-            newCoin.classList.add('dimes');
+            newCoin.classList.add(coinType.value);
             total += .10;
         }else if (coinType.value === "quarter"){
-            newCoin.classList.add('quarters');
+            newCoin.classList.add(coinType.value);
             total += .25;
         }
         newCoin.innerText = coinType.value;
@@ -58,16 +58,16 @@ form.addEventListener('submit', (e) => {
 })
 
 displayCoins.addEventListener('click', (e) => {
-    if (e.target.className === "pennies") {
+    if (e.target.className === "penny") {
         e.target.style.display = "none";
         total = total - .01;
-    } else if (coinType.value ==="nickel") {
+    } else if (e.target.className ==="nickel") {
         e.target.style.display = "none";
         total = total - .05;
-    }else if (coinType.value === "dime") {
+    }else if (e.target.className === "dime") {
         e.target.style.display = "none";
         total= total - .10;
-    }else if (coinType.value === "quarter"){
+    }else if (e.target.className ==="quarter"){
         e.target.style.display = "none";
         total= total - .25;
     }
