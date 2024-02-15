@@ -37,18 +37,15 @@ form.addEventListener('submit', (e) => {
     console.log(NumofCoins);
     for (let i = 0; i < NumofCoins.value; i++){
         const newCoin = document.createElement("span"); 
+        newCoin.classList.add(coinType.value);
         // newCoin.classList.add("coin");
         if(coinType.value === "penny"){
-            newCoin.classList.add(coinType.value);
             total += .01;
         } else if (coinType.value ==="nickel") {
-            newCoin.classList.add(coinType.value);
             total += .05;
         }else if (coinType.value === "dime") {
-            newCoin.classList.add(coinType.value);
             total += .10;
         }else if (coinType.value === "quarter"){
-            newCoin.classList.add(coinType.value);
             total += .25;
         }
         newCoin.innerText = coinType.value;
