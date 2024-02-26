@@ -1,0 +1,76 @@
+body {
+    margin: 0; 
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(213,220,226);
+}
+
+h1 {
+    color: #FF5700;
+}
+
+#flex-row {
+    display: flex;
+    margin: 10px;
+}
+
+#flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid #FF5700;
+    margin: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: #FF5700; 
+    background-color: white;
+    font-weight: 600;
+}
+
+.posts {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.eachPost{
+    border: 2px solid darkgray;
+    margin: 5px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EFF7FF;
+}
+
+a {
+    text-decoration: none;
+    color: #FF5700
+}
+
+form{
+    color: #FF5700;
+}
+
+img {
+    width: auto;
+    height: 140px;
+}

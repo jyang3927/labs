@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>REDDIT POSTS</h1>
+    <div id = "flex-row">
+        <div id = "flex-column">
+            <div id="buttons">
+                <form id="submitForm">
+                    <label id="search">Search</label>
+                    <input id="searchInput" type="text" />
+                    <button id="showResults" type = "submit">Results</button>
+                    <button id="firstTenResultsBtn" type = "submit">First Ten</button>
+                    <button id="refresh">Refresh</button>
+                </form>
+            </div>
+            <div class="posts" id="results"></div>
+            <div class="posts" id="firstTen"></div>
+        </div>
+    </div>
+    <script src="reddit.js"></script>
+</body>
+</html>
