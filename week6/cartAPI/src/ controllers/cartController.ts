@@ -5,7 +5,6 @@ const router = express.Router();
 
 router.get('/carts', async(req:Request, res:Response) => {
     try{
-        const {state} = req.query; 
         const data = await getCarts(); 
 
         return res.status(200).json(data); 

@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adDesign {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+}
+
+.mainStyle {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainflex {
+    flex: 1;
+}

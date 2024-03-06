@@ -1,0 +1,9 @@
+.headerStyle {
+    font-weight: bold;
+    color: cornflowerblue;
+    border-bottom: 7px solid burlywood;
+    font-size: 23px;
+    box-shadow: 2px 3px navajowhite;
+    font-style: oblique;
+}
+
